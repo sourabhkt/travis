@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.get("http://www.google.com")
 if not "Google" in driver.title:
     raise Exception("Unable to load google page!")
