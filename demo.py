@@ -10,4 +10,5 @@ elem = driver.find_element_by_name("q")
 elem.send_keys("Coverfox")
 elem.submit()
 print driver.title
+
 driver.quit()
